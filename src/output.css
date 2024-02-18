@@ -543,3 +543,143 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container-navbar {
+  width: 100%;
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 252 252 / var(--tw-bg-opacity));
+  padding: 1.25rem;
+}
+
+.row-navbar {
+  display: flex;
+  height: 50px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  text-align: center;
+}
+
+.btn-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 246 246 / var(--tw-bg-opacity));
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  border: 1px solid #f6f7f7;
+  border-radius: 7px;
+  padding: 8px 11px;
+}
+
+.btn-header:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.btn-header span {
+  margin-left: 0.25rem;
+}
+
+.course-items {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  font-weight: 700;
+}
+
+.item-navbar {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+  font-size: 15px;
+}
+
+.img-header {
+  margin-left: 1.25rem;
+}
+
+.container-enter {
+  width: 100%;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.row-enter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+
+.entering {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.btn-enter {
+  margin-left: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  background: linear-gradient(-45deg,#11ebfc,#d81ad3 130%);
+  color: #fff;
+  border-radius: 12px;
+}
+
+.btn-enter span {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.enter-icon {
+  margin-left: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 243 243 / var(--tw-bg-opacity));
+  padding: 0.5rem;
+  font-size: 13px;
+  border-radius: 10px;
+}
+
+.texting-enter {
+  margin-right: 2.5rem;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  font-weight: 700;
+}
+
+.enter-items {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  font-size: 14px;
+}
+
+@media (max-width: 1200px) {
+  .enter-items {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}

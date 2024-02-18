@@ -1,3 +1,65 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+*{
+    @apply m-0 p-0;
+}
+.container-navbar{
+    @apply bg-[#fafcfc] w-full p-5;
+}
+.row-navbar{
+    @apply  text-center flex flex-row px-10 h-[50px] py-5 items-center justify-between
+}
+.btn-header{
+@apply flex flex-row text-[15px] font-bold text-center items-center  bg-[#f3f6f6];
+border: 1px solid #f6f7f7;
+border-radius: 7px;
+padding: 8px 11px;
+
+}
+.btn-header:hover{
+    @apply bg-[#fff]
+}
+.btn-header span{
+    @apply ml-1
+}
+.course-items{
+    @apply flex flex-row-reverse mx-10 items-center font-bold
+
+}
+.item-navbar{
+    @apply mx-5 text-[15px]
+}
+.img-header{
+@apply ml-5
+}
+.container-enter{
+@apply w-full bg-[#fff] 
+}
+.row-enter{
+@apply flex flex-row items-center justify-between p-6 
+}
+.entering{
+@apply flex flex-row text-center items-center
+}
+.btn-enter{
+    @apply flex flex-row px-3 py-2 text-center text-[15px] font-bold items-center ml-10;
+    background: linear-gradient(-45deg,#11ebfc,#d81ad3 130%);
+    color: #fff;
+    border-radius: 12px;
+}
+.btn-enter span{
+    @apply mx-2
+}
+.enter-icon{
+    @apply ml-3 bg-[#f5f3f3] p-2 text-[13px];
+    border-radius: 10px;
+}
+
+.texting-enter{
+    @apply flex flex-row-reverse items-center font-bold mr-10
+ 
+}
+.enter-items{
+    @apply mx-6 max-[1200px]:mx-2 text-[14px]
+}
