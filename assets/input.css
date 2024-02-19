@@ -70,6 +70,7 @@ padding: 8px 11px;
     height: 590px;
 	animation: gradient 10s ease infinite;
     background-size: 400% 400%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
 
 @keyframes gradient {
@@ -90,7 +91,7 @@ padding: 8px 11px;
     margin-top: 24px;
     white-space: nowrap;
     overflow-y: hidden;
-        background: rgba(255,200,200,.1);
+    background: rgba(255,200,200,.1);
 }
 .row-case{
     @apply p-5 mb-16 flex flex-row-reverse text-[#fff];
@@ -152,3 +153,36 @@ padding: 8px 11px;
     border-radius: 12px;
 }
 /* cases */
+/* describtion */
+.container-desc{
+@apply flex flex-col text-right my-20;
+max-width: 1140px;
+}
+.paragragh-desc{
+@apply text-[15px] font-bold pl-72 mb-3;
+line-height: 31px;
+}
+.s-desc{
+    color: #d81ad3;
+    @apply font-bold;
+}
+.header-desc{
+@apply text-[20px] font-bold mb-5;
+line-height: 31px;
+}
+.s-header{
+    color: #d81ad3;
+    @apply font-bold;
+}
+.list-desc{
+    @apply flex flex-col;
+    list-style-type:disc;
+    list-style-position:inside;
+    direction: rtl;
+}
+.items-desc{
+    @apply text-[15px] font-bold my-3 ;
+    
+}
+
+/* describtion */

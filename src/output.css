@@ -692,6 +692,7 @@ video {
   height: 590px;
   animation: gradient 10s ease infinite;
   background-size: 400% 400%;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
 
 @keyframes gradient {
@@ -812,3 +813,56 @@ video {
 }
 
 /* cases */
+
+/* describtion */
+
+.container-desc {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  max-width: 1140px;
+}
+
+.paragragh-desc {
+  margin-bottom: 0.75rem;
+  padding-left: 18rem;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 31px;
+}
+
+.s-desc{
+  color: #d81ad3;
+  font-weight: 700;
+}
+
+.header-desc {
+  margin-bottom: 1.25rem;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 31px;
+}
+
+.s-header{
+  color: #d81ad3;
+  font-weight: 700;
+}
+
+.list-desc {
+  display: flex;
+  flex-direction: column;
+  list-style-type:disc;
+  list-style-position:inside;
+  direction: rtl;
+}
+
+.items-desc {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+/* describtion */
