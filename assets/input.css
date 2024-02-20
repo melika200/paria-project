@@ -186,3 +186,71 @@ line-height: 31px;
 }
 
 /* describtion */
+/* show more */
+.container-pic{
+    @apply flex flex-col text-right justify-center my-20 relative;
+    max-width: 1140px;
+}
+.img-pic{
+    @apply flex justify-center w-[60%] m-auto pb-10;
+
+}
+.start-pic{
+    display: none;
+}
+.btn-pic{
+    @apply absolute ;
+    left: 60%
+}
+.btn-pic,.btn-close{
+    @apply px-8 py-2 text-[20px] font-bold ;
+    display: block;
+    margin: 0 auto;
+    background: linear-gradient(-45deg,#11ebfc,#d81ad3 130%);
+    box-shadow: 0 3px 20px rgba(0,118,244,.23);
+    color: #fff;
+    border-radius: 12px;
+}
+/* show more */
+/* user */
+.container-user{
+@apply flex flex-col justify-center w-[60%] m-auto my-32 text-center;
+}
+.header-user{
+@apply text-[15px] font-bold my-3 
+}
+.paragragh-user{
+    @apply mb-8
+}
+.list-user{
+@apply flex flex-col;
+
+}
+.talk-user{
+@apply flex w-full pb-48 text-center pt-3;
+border: 1px solid #a4a4a4;
+border-radius: 30px;
+}
+.row-user{
+    @apply flex flex-row-reverse my-5
+}
+.letter-user{
+@apply flex flex-wrap w-[50%] text-right pb-14 pr-3 mx-3;
+border: 1px solid #a4a4a4;
+border-radius:10px;
+}
+.email-user{
+@apply flex flex-wrap w-[50%] text-right pb-14 pr-3;
+border: 1px solid #a4a4a4;
+border-radius: 10px;
+}
+.btn-user{
+    @apply px-8 py-2 text-[20px] font-bold ;
+    display: block;
+    margin: 0 auto;
+    background: linear-gradient(-45deg,#11ebfc,#d81ad3 130%);
+    box-shadow: 0 3px 20px rgba(0,118,244,.23);
+    color: #fff;
+    border-radius: 12px;
+}
+/* user */

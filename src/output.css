@@ -866,3 +866,137 @@ video {
 }
 
 /* describtion */
+
+/* show more */
+
+.container-pic {
+  position: relative;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+  max-width: 1140px;
+}
+
+.img-pic {
+  margin: auto;
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  padding-bottom: 2.5rem;
+}
+
+.start-pic{
+  display: none;
+}
+
+.btn-pic {
+  position: absolute;
+  left: 60%;
+}
+
+.btn-pic,.btn-close {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 20px;
+  font-weight: 700;
+  display: block;
+  margin: 0 auto;
+  background: linear-gradient(-45deg,#11ebfc,#d81ad3 130%);
+  box-shadow: 0 3px 20px rgba(0,118,244,.23);
+  color: #fff;
+  border-radius: 12px;
+}
+
+/* show more */
+
+/* user */
+
+.container-user {
+  margin: auto;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.header-user {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.paragragh-user {
+  margin-bottom: 2rem;
+}
+
+.list-user {
+  display: flex;
+  flex-direction: column;
+}
+
+.talk-user {
+  display: flex;
+  width: 100%;
+  padding-bottom: 12rem;
+  padding-top: 0.75rem;
+  text-align: center;
+  border: 1px solid #a4a4a4;
+  border-radius: 30px;
+}
+
+.row-user {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.letter-user {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  padding-bottom: 3.5rem;
+  padding-right: 0.75rem;
+  text-align: right;
+  border: 1px solid #a4a4a4;
+  border-radius:10px;
+}
+
+.email-user {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  padding-bottom: 3.5rem;
+  padding-right: 0.75rem;
+  text-align: right;
+  border: 1px solid #a4a4a4;
+  border-radius: 10px;
+}
+
+.btn-user {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 20px;
+  font-weight: 700;
+  display: block;
+  margin: 0 auto;
+  background: linear-gradient(-45deg,#11ebfc,#d81ad3 130%);
+  box-shadow: 0 3px 20px rgba(0,118,244,.23);
+  color: #fff;
+  border-radius: 12px;
+}
+
+/* user */
