@@ -11,7 +11,7 @@
     @apply  text-center flex flex-row px-10 h-[50px] py-5 items-center justify-between
 }
 .btn-header{
-@apply flex flex-row text-[15px] font-bold text-center items-center  bg-[#f3f6f6];
+@apply flex flex-row text-[15px] font-bold text-center items-center  bg-[#f3f6f6] max-[780px]:hidden;
 border: 1px solid #f6f7f7;
 border-radius: 7px;
 padding: 8px 11px;
@@ -24,15 +24,48 @@ padding: 8px 11px;
     @apply ml-1
 }
 .course-items{
-    @apply flex flex-row-reverse mx-10 items-center font-bold
+    @apply flex flex-row-reverse mx-10 items-center font-bold ;
 
 }
+.course-items li{
+    @apply max-[780px]:hidden;
+}
+.course span{
+    @apply  min-[780px]:hidden absolute right-3 max-[780px]:mt-2;
+    color: #e899e5;
+    font-size:35px;
+}
 .item-navbar{
-    @apply mx-5 text-[15px]
+    @apply ml-5 text-[15px] flex flex-row relative
+}
+.item-navbar span{
+    @apply mt-1
+}
+.item-navbar:hover ul.sub-menu{
+    max-height: inherit;
+    opacity: 1;
+}
+.sub-menu{
+    @apply flex flex-col text-[10px] text-center  mx-2 absolute top-10 right-3;
+    max-height: 0px;
+    background-color: #f6f7f7;
+    opacity: 0;
+    overflow: hidden;
+    transition:opacity 300ms ease;
+    list-style-type:disc;
+    list-style-position:inside;
+    direction: rtl;
+    z-index: 1;
+}
+.sub-item{
+border-bottom: 1px solid #c0baba;
+
+
 }
 .img-header{
-@apply ml-5
+@apply ml-5 max-[780px]:ml-64
 }
+
 .container-enter{
 @apply w-full bg-[#fff] 
 }
@@ -43,7 +76,8 @@ padding: 8px 11px;
 @apply flex flex-row text-center items-center
 }
 .btn-enter{
-    @apply flex flex-row px-3 py-2 text-center text-[15px] font-bold items-center ml-10;
+    @apply flex flex-row px-3 py-2 text-center text-[15px] font-bold items-center ml-10 max-[780px]:absolute max-[780px]:p-1
+    max-[780px]:top-8 max-[780px]:left-0 max-[780px]:ml-3;
     background: linear-gradient(-45deg,#11ebfc,#d81ad3 130%);
     color: #fff;
     border-radius: 12px;
@@ -52,12 +86,12 @@ padding: 8px 11px;
     @apply mx-2
 }
 .enter-icon{
-    @apply ml-3 bg-[#f5f3f3] p-2 text-[13px];
+    @apply ml-3 bg-[#f5f3f3] p-2 text-[13px] max-[780px]:hidden;
     border-radius: 10px;
 }
 
 .texting-enter{
-    @apply flex flex-row-reverse items-center font-bold mr-10
+    @apply flex flex-row-reverse items-center font-bold mr-10 max-[780px]:hidden
  
 }
 .enter-items{
@@ -87,6 +121,7 @@ padding: 8px 11px;
 
 /* navbar */
 .container-case{
+    @apply max-[780px]:p-0 max-[780px]:mt-2;
     padding: 14px 17px;
     margin-top: 24px;
     white-space: nowrap;
@@ -94,7 +129,7 @@ padding: 8px 11px;
     background: rgba(255,200,200,.1);
 }
 .row-case{
-    @apply p-5 mb-16 flex flex-row-reverse text-[#fff];
+    @apply p-5 mb-16 flex flex-row-reverse text-[#fff] max-[780px]:p-0 max-[780px]:mt-1;
     background: rgba(255,255,255,.18);
     background: #d5b8b8;
     border-radius: 9px;
@@ -116,9 +151,10 @@ padding: 8px 11px;
 }
 /* navbar */
 .case-imgtext{
-    @apply flex flex-row-reverse justify-evenly
+    @apply flex flex-row-reverse justify-evenly max-[780px]:flex max-[780px]:flex-col
 }
 .img-case{
+    @apply  max-[780px]:mx-auto;
     height: 370px;
     object-fit: cover;
     object-position: top;
@@ -127,7 +163,7 @@ padding: 8px 11px;
 
     }
 .texting-case{
-@apply flex flex-col text-right w-[50%]
+@apply flex flex-col text-right w-[50%] max-[780px]:mt-28 max-[780px]:ml-10  max-[780px]:w-[90%]  max-[780px]: p-3; 
 }
 .header-case{
     margin-bottom: 26px;
@@ -155,11 +191,11 @@ padding: 8px 11px;
 /* cases */
 /* describtion */
 .container-desc{
-@apply flex flex-col text-right my-20;
+@apply flex flex-col text-right min-[780px]:my-20 max-[780px]:mt-96;
 max-width: 1140px;
 }
 .paragragh-desc{
-@apply text-[15px] font-bold pl-72 mb-3;
+@apply text-[15px] font-bold pl-72 mb-3 max-[780px]:hidden;
 line-height: 31px;
 }
 .s-desc{

@@ -12,3 +12,14 @@ function mybtn(){
     document.querySelector('.btn-pic').style='display:block'
     
 }
+// courses
+// document.queryselectore('.item-navbar').addEventListener("mouseover", mouseOver);
+// document.queryselectore('.item-navbar').addEventListener("mouseout", mouseOut);
+// function mouseOver() {
+//     document.queryselectore('.item-navbar').style='display:block';
+//   }
+  
+//   function mouseOut() {
+//     document.queryselectore('.item-navbar').style='display:none';
+//   }
+// end courses
